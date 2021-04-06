@@ -24,10 +24,108 @@ body {
 }
 
 .obal {
-	max-width: 960px; /* obsah stránky je omezený do pruhu širokého max. 960px */
+	max-width: 380px; /* obsah stránky je omezený do pruhu širokého max. 960px */
 	margin: 0 auto; /* pruh je na stránce vycentrovaný */
 	background: white;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+}
+
+ul{
+	list-style-type: none;
+	text-align: center;
+	padding-left: 0;
+	display:none;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	font-size: 60px;
+	font-weight: 400;
+	color: white;
+	margin-left: 20px;
+	margin-top: 0;
+}
+
+h2{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.hero p{
+	font-size: 36px;
+	font-weight: 300;
+	color: white;
+	margin-left: 20px;
+}
+
+.hero{
+	background-image: url(images/pozadi.jpg);
+	background-size: cover;
+	position: relative;
+	min-height: 600px;
+}
+
+li{
+	padding: 5px 10px;
+	text-decoration: none;
+	display: block;
+}
+
+li:hover {
+	background-color: #48418e;
+	color: white;
+
+}
+
+.sloupce p, .sloupce h2{	
+	text-align: center;
+}
+
+.sloupce img{
+	width: 60px;
+	margin: 10px 150px;
+	/* tady nemůže být 150px, ale nevím jak jinak dát ikonu doprostřed */
+	padding: 0;
+}
+
+.sloupce{
+	margin: 0 10px;
+}
+
+.telefon{
+	width: 200px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.zdarma, .info{
+	color: white;
+	background-color: #48418e;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 10px 15px;
+}
+
+.zdarma{
+	margin-left: 20px;
+}
+footer p{
+	margin: 0;
+}
+footer{
+	text-align: center;
+	padding: 10px 0px;
+	background-color: #48418e;
+	color: white;
+}
